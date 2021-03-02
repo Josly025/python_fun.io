@@ -3,6 +3,6 @@ print("how many kilometers did you cycle today?")
 # it to a variable
 kms = float(input())
 miles = kms/1.60934
-print(f"Okay, you said {round(miles, 2)} miles")
+print(f"Okay, your {kms} ride converts to {round(miles, 2)} miles")
 #lets round it 
 #rount(thing to round , decimal points)
